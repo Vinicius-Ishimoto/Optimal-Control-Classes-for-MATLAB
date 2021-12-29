@@ -11,11 +11,8 @@ The two main classes uses automatic differentiation to calculate the Jacobian an
      where:
      
           V: Final vector;
-          
-          X: vector or matrix of variables. 
-          
-          The function recognizes each column as a variable with each row considered as a point of the variable over time;
-          
+          X: vector or matrix of variables.
+          The function recognizes each column as a variable with each row considered as a point of the variable over time
           ndiff: number of points discrete over time. Its only defined when inputing a matrix of variables.
  
  Example:
