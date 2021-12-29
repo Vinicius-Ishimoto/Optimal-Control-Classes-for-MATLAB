@@ -49,3 +49,9 @@ To return the variables after all the calculation is done:
       Q = tan(X)^2-Y/X;  % equations to be computed
       
  In the example, the 10 points over time of "X" are the 1-10 derivatives of the problem, where the "Y" points are the 11-20 derivatives.
+ 
+ To return the variables after all the calculation is done:
+
+     - double(Q): return the vectorized variables;
+     - jacobian(Q): jacobian of "Q" as a sparse matrix. Each column represents the derivatives with the location defined before.
+
