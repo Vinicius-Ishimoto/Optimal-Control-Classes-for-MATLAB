@@ -1,5 +1,5 @@
 # Optimal-Control-Classes-for-MATLAB
-Optimal control classes for differentiation in MATLAB
+This repository implements a Lagrange-Gauss-Radau (Garg et al., 2009) formulation to transcribe the dynamic problem of an optimal control to a NLP (non-linear-programming) for calculation using the IPOPT solver.
 
 # Classes description
 The two main classes uses automatic differentiation to calculate the Jacobian and Hessian automatically, without the need for external files or writing a specific function for use. They are specially designed for optimal control, where each variable is a vector discretized over time. Some example of uses are are shown bellow:
